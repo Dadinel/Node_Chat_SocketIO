@@ -1,7 +1,8 @@
-var socket = require('socket.io-client')('http://localhost:3000');
+let socket = require('socket.io-client')('http://localhost:3000');
+let colors = require('colors');
+let myName = '';
+
 const readline = require('readline');
-var colors = require('colors');
-var myName = '';
 
 const rl = readline.createInterface({
     input: process.stdin,

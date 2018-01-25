@@ -1,12 +1,12 @@
-var app = require('http').createServer();
-var io = require('socket.io')(app);
+let app = require('http').createServer();
+let io = require('socket.io')(app);
 
 app.listen(3000, () => {
     console.log("Bem vindo ao bate papo da TOTVS");
 });
 
 io.on('connection', function (socket) {
-    console.log("Alguém se conectou");
+    console.log("Alguï¿½m se conectou");
 
     socket.on("register", (data) => {
         socket.faName = data;
