@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server para o chat feito com socket.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dadinel/Node_Chat_SocketIO.git"
+  },
+  "author": "Daniel Mendes/Claudio Koji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dadinel/Node_Chat_SocketIO/issues"
+  },
+  "homepage": "https://github.com/Dadinel/Node_Chat_SocketIO#readme",
+  "dependencies": {
+    "socket.io": "^2.0.4"
+  }
+}
